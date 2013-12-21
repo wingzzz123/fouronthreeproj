@@ -1,0 +1,56 @@
+body{
+	font-size: medium;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	list-style-position: 1.6em; /*Changes the verticle space between lines*/
+	background: white;
+}
+
+h1{
+	font-size: 150%;
+}
+
+h2{
+	font-size: 130%;
+}
+
+.header{
+	background: gray;
+	background-image: url(../images/lotus_on_water_sized.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	line-height: 250px;
+	width: 100%;
+	float: left;
+}
+
+.nav{
+	background: green;
+	font-size: 100%;
+	width: 100%;
+	float: left;
+}
+
+.content {
+	background: red;
+	background-image: url(../images/spa5.png);
+	background-size: 100% 100%;
+	width: 70%;
+	height: 800px;	
+	float: left;
+}
+
+.sidebar{
+	background: gray;
+	width: 30%;
+	height: 800px;
+	line-height: 800px;
+	float: left;
+
+}
+
+.footer{
+	background: blue;
+	width: 100%;
+	float: left;
+}
