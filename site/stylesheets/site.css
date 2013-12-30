@@ -10,6 +10,33 @@ body{
 	background: white;
 }
 
+table{
+	border: thin solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+}
+
+a:link {
+	text-decoration:none;
+	color:black;
+}
+a:visited {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	text-decoration:none;
+	color:#ffcc00;
+}
+a:active {
+	text-decoration:none;
+}
+
 h1{
 	font-size: 150%;
 }
